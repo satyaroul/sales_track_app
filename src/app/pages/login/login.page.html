@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-toolbar color="tertiary">
+    <ion-title style="text-align: center">Login</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-segment color="secondary">
+    <ion-segment-button (ionSelect)="segmentChanged(true)" checked>
+      <ion-label>Login</ion-label>
+    </ion-segment-button>
+    <ion-segment-button (ionSelect)="segmentChanged(false)">
+      <ion-label>Login with OTP</ion-label>
+    </ion-segment-button>
+  </ion-segment>
+  <app-withotp *ngIf="withpass == false"></app-withotp>
+  <app-withpass *ngIf="withpass == true"></app-withpass>
+</ion-content>

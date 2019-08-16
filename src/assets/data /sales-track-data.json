@@ -1,0 +1,25 @@
+{
+    "data": {
+        "user_data": [
+            {
+                "loginid": "7008581966",
+                "password": "test123",
+                "name": "satya roul",
+                "mobile_no": "7008581966",
+                "alt_mobile_number" : "8763284243",
+                "email" : "satya.roul@gmail.com",
+                "account_number" : "123123"
+            },
+            {
+                "loginid": "9404246615",
+                "password": "test123",
+                "name": "test test",
+                "mobile_no": "9404246615",
+                "alt_mobile_number" : "8763284243",
+                "email" : "test.test@gmail.com",
+                "account_number" : "234234"
+            }
+        ],
+        ""
+    }
+}
